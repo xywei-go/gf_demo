@@ -5,9 +5,10 @@ import (
 )
 
 type HiReq struct {
-	g.Meta `path:"/hi/sayHello" method:"get" tages:"hi包下的方法" summary:"api/hello/v1包的hi.go"`
+	g.Meta `path:"/hi/say-hello" method:"get" tages:"hi包下的方法" summary:"api/hello/v1包的hi.go"`
 }
 
 type HiRes struct {
 	g.Meta `mime:"text/html" example:"string"`
 }
+
